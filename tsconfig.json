@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "lib": ["es2018", "dom"],
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*"]
+        },
+        "types": ["node"]
+    },
+    "exclude": ["node_modules", "src", "data", "functions"],
+    "include": ["scripts/**/*"]
+}

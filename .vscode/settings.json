@@ -1,0 +1,16 @@
+{
+    "javascript.validate.enable": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "files.autoSave": "off",
+    "typescript.format.enable": true,
+    "typescript.check.npmIsInstalled": false,
+    "typescript.tsc.autoDetect": "on",
+    "typescript.validate.enable": true,
+    "files.watcherExclude": {
+        "./data/**": true,
+        "./RProj.user/**": true
+    },
+    "python.pythonPath": ".venv/bin/python3"
+}
